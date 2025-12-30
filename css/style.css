@@ -1,0 +1,15 @@
+:root {
+    --text-header-main: #FFFFFF;
+    --button-text-color: #26C6EA;
+    --phrase-color: #0A3853;
+    --name: #000000;
+    --text-language-phrase: #141414;
+    --hover-header:#94CFFF;
+}
+
+.hero {
+    background-image: url("../img/Group\ 48\ 1\ \(1\).jpg");
+    width: 1440px;
+    height: 740px;
+}
+   
