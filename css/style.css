@@ -11,5 +11,10 @@
     background-image: url("../img/boyavatar.jpg");
     width: 1440px;
     height: 740px;
+}
 
+.trailer {
+    background-image: url("../img/girlavatar.jpg");
+    width: 1440px;
+    height: 740px;
 }
