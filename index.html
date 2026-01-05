@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Headland+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -24,7 +24,7 @@
     <header class="header">
       <div class="container">
         <a class="logo">
-          <img src="./img/logo.png" alt="avatar-logo" />
+          <img class="header-logo" src="./img/logo.png" alt="avatar-logo" />
         </a>
         <nav class="nav">
           <ul class="nav-list">
@@ -39,7 +39,11 @@
             </li>
           </ul>
         </nav>
-        <button class="nav-btn" type="button">Увійти</button>
+        <div class="header-actions">
+          <button class="header-btn" type="button">Увійти</button>
+          <a class="header-link" href="./">UA</a>
+          <a class="header-link" href="./">ENG</a>
+        </div>
       </div>
     </header>
     <main>
@@ -58,10 +62,11 @@
       </section>
       <section class="quote">
         <div class="container">
-          <h2 class="quote-title">
-            “БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ
-            ЗАКІНЧУЄТЬСЯ.”
+          <h2 class="quote-title">“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ</h2>
+          <h2 class="quote-title-down">
+            ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”
           </h2>
+
           <p class="quote-text">Джейк Саллі</p>
         </div>
       </section>
@@ -124,7 +129,9 @@
         <img src="./img/logo.png" alt="avatar-logo" />
         <ul class="footer-list">
           <li class="footer-item">Q&A E-mail avatartwowqa@gmail.com</li>
-          <li class="footer-item">Cooperation E-mail avatartwowcoop@gmail.com</li>
+          <li class="footer-item">
+            Cooperation E-mail avatartwowcoop@gmail.com
+          </li>
         </ul>
       </div>
     </footer>

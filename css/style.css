@@ -11,7 +11,7 @@
 
 }
 
-.body {
+body {
     font-family: "Inter", sans-serif;
 }
 
@@ -23,22 +23,42 @@
 
 .header .container {
     display: flex;
-   align-items: center;
-   justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    gap: 168px;
 }
 
+.header {
+    padding-left: 204px;
+    padding-right: 1150px;
+}
 
+.header-logo {
+   padding-top: 39px;
+   padding-bottom: 39px;
+}
 
-.nav-item {
-    font-size: 20px;
-    font-weight: 300;
-    width: 82px;
-    height: 24px;
+.hero-text {
+    margin-bottom: 35px;
+}
+
+.nav-list {
     display: flex;
     gap: 38px;
 }
 
-.nav-btn {
+
+.nav-link {
+    font-size: 20px;
+    font-weight: 300;
+    width: 78px;
+    height: 24px;
+    color: var(--text-header-main);
+    
+    
+}
+
+.header-btn {
      font-family: "Headland One", serif;
      font-weight: 400;
      font-size: 20px;
@@ -53,14 +73,13 @@ color: var(--button-text-color);
 .hero-text {
     font-weight: 400;
     font-size: 20px;
-    width: 298px;
-    height: 96px;
+    width: 376px;
+    height: 123px;
+    
 }
 
 .hero-btn {
      font-family: "Headland One", serif;
-     font-style: normal;
-     line-height: normal;
     font-weight: 400;
     font-size: 24px;
     width: 260px;
@@ -69,13 +88,51 @@ border-radius: 45px 0;
 border: 3px solid var(--border-btn);
 background: var(--btn-background);
 color: var(--button-text-color);
+margin-top: 42px ;
 }
 
+
+
+.quote {
+    background-color: var(--text-header-main);
+   padding-top: 76px;
+   padding-bottom: 10px;
+}
+
+.quote::after {
+content: "";
+display: block;
+width: 400px;
+height: 120px;
+background-image: url("../img/birdarrow.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+margin: 0 auto;
+
+}
+
+
 .quote-title {
+   text-align: center;
+   margin: 0 auto;
     font-weight: 400;
     font-size: 36px;
     width: 724px;
     height: 44px;
+    color: var(--phrase-color);
+    padding-bottom: 8px;
+}
+
+.quote-title-down {
+    font-weight: 400;
+    font-size: 36px;
+    width: 1002px;
+    height: 44px;
+     color: var(--phrase-color);
+     text-align: center;
+     margin-bottom:16px;
+     
 }
 
 .quote-text {
@@ -83,6 +140,10 @@ color: var(--button-text-color);
     font-size: 24px;
     width: 151px;
     height: 29px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    
 }
 
 .trailer-btn {
@@ -106,8 +167,8 @@ color: var(--button-text-color);
 
 .language {
     background-image: url("../img/world.jpg");
-    width: 1440px;
     height: 704px;
+    background-size: cover;
 }
 
 
@@ -153,21 +214,21 @@ height: 29px;
 
 .hero {
     background-image: url("../img/boyavatar.jpg");
-    width: 1440px;
     height: 740px;
+    background-size: cover;
+    padding: 186px 857px 178px 207px ;
 }
 
 .trailer {
     background-image: url("../img/girlavatar.jpg");
-    width: 1440px;
     height: 740px;
+    background-size: cover;
 }
 
 .header {
     background-image: linear-gradient(#2b4a61de,#2b4a61de),url("../img/part.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
-     width: 1440px;
     height: 150px;
 }
