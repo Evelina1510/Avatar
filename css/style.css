@@ -65,11 +65,23 @@ body {
   color: var(--button-text-color);
 }
 
+.hero-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: 201px;
+}
+
 .hero-text {
   font-weight: 400;
   font-size: 20px;
   width: 376px;
-  height: 123px;
+  color: var(--text-header-main);
+}
+
+.hero-link {
+  width: 30px;
+  height: 30px;
 }
 
 .hero-btn {
@@ -82,7 +94,6 @@ body {
   border: 3px solid var(--border-btn);
   background: var(--btn-background);
   color: var(--button-text-color);
-  margin-top: 42px;
 }
 
 .quote {
@@ -287,6 +298,8 @@ body {
   height: 740px;
   background-size: cover;
   background-position: center;
+  padding-top: 180px;
+  padding-bottom: 180px;
 }
 
 .trailer {
@@ -303,6 +316,8 @@ body {
   background-size: cover;
   background-position: center;
   height: 150px;
+  border-bottom: 3px solid #FFF;
+
 }
 .language {
   background-image: url("../img/world.jpg");
