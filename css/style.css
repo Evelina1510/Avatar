@@ -1,327 +1,320 @@
 :root {
-    --text-header-main: #FFFFFF;
-    --button-text-color: #26C6EA;
-    --phrase-color: #0A3853;
-    --name: #000000;
-    --text-language-phrase: #141414;
-    --hover-header:#94CFFF;
-    --gradient: #2B4A61;
-    --btn-background: #0B0E66;
-    --border-btn: #26C7EA;
-
+  --text-header-main: #ffffff;
+  --button-text-color: #26c6ea;
+  --phrase-color: #0a3853;
+  --name: #000000;
+  --text-language-phrase: #141414;
+  --hover-header: #94cfff;
+  --gradient: #2b4a61;
+  --btn-background: #0b0e66;
+  --border-btn: #26c7ea;
 }
 
 body {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
-    width: 1032px;
-    padding: 0 12px;
-    margin: 0 auto
+  width: 1032px;
+  padding: 0 12px;
+  margin: 0 auto;
 }
 
 .header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header {
-    padding-left: 204px;
-    padding-right: 1150px;
+  padding-left: 204px;
+  padding-right: 1150px;
 }
 
 .header-logo {
-   padding-top: 39px;
-   padding-bottom: 39px;
+  padding-top: 39px;
+  padding-bottom: 39px;
 }
 
 .hero-text {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .nav-list {
-    display: flex;
-    gap: 38px;
+  display: flex;
+  gap: 38px;
 }
 
-
 .nav-link {
-    font-size: 20px;
-    font-weight: 300;
-    width: 78px;
-    height: 24px;
-    color: var(--text-header-main);
-    
-    
+  font-size: 20px;
+  font-weight: 300;
+  width: 78px;
+  height: 24px;
+  color: var(--text-header-main);
 }
 
 .header-btn {
-     font-family: "Headland One", serif;
-     font-weight: 400;
-     font-size: 20px;
-     width: 141px;
-     height: 41.69px;
-     border-radius: 35px 0;
-border: 2px solid var(--border-btn);
-background: var(--btn-background);
-color: var(--button-text-color);
+  font-family: "Headland One", serif;
+  font-weight: 400;
+  font-size: 20px;
+  width: 141px;
+  height: 41.69px;
+  border-radius: 35px 0;
+  border: 2px solid var(--border-btn);
+  background: var(--btn-background);
+  color: var(--button-text-color);
 }
 
 .hero-text {
-    font-weight: 400;
-    font-size: 20px;
-    width: 376px;
-    height: 123px;
-    
+  font-weight: 400;
+  font-size: 20px;
+  width: 376px;
+  height: 123px;
 }
 
 .hero-btn {
-     font-family: "Headland One", serif;
-    font-weight: 400;
-    font-size: 24px;
-    width: 260px;
-height: 80px;
-border-radius: 45px 0;
-border: 3px solid var(--border-btn);
-background: var(--btn-background);
-color: var(--button-text-color);
-margin-top: 42px ;
+  font-family: "Headland One", serif;
+  font-weight: 400;
+  font-size: 24px;
+  width: 260px;
+  height: 80px;
+  border-radius: 45px 0;
+  border: 3px solid var(--border-btn);
+  background: var(--btn-background);
+  color: var(--button-text-color);
+  margin-top: 42px;
 }
 
-
-
 .quote {
-    background-color: var(--text-header-main);
-   padding-top: 76px;
-   padding-bottom: 10px;
+  background-color: var(--text-header-main);
+  padding-top: 76px;
+  padding-bottom: 10px;
 }
 
 .quote::after {
-content: "";
-display: block;
-width: 400px;
-height: 120px;
-background-image: url("../img/birdarrow.png");
-background-repeat: no-repeat;
-background-position: center;
-background-size: contain;
-margin: 0 auto;
-
+  content: "";
+  display: block;
+  width: 400px;
+  height: 120px;
+  background-image: url("../img/birdarrow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0 auto;
 }
 
-
 .quote-title {
-   text-align: center;
-   margin: 0 auto;
-    font-weight: 400;
-    font-size: 36px;
-    width: 724px;
-    height: 44px;
-    color: var(--phrase-color);
-    padding-bottom: 8px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 36px;
+  width: 724px;
+  height: 44px;
+  color: var(--phrase-color);
+  padding-bottom: 8px;
 }
 
 .quote-title-down {
-    font-weight: 400;
-    font-size: 36px;
-    width: 1002px;
-    height: 44px;
-     color: var(--phrase-color);
-     text-align: center;
-     margin-bottom:16px;
-     
+  font-weight: 400;
+  font-size: 36px;
+  width: 1002px;
+  height: 44px;
+  color: var(--phrase-color);
+  text-align: center;
+  margin-bottom: 16px;
 }
 
 .quote-text {
-    font-weight: 400;
-    font-size: 24px;
-    width: 151px;
-    height: 29px;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 8px;
-    
+  font-weight: 400;
+  font-size: 24px;
+  width: 151px;
+  height: 29px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 8px;
 }
 
 .trailer-btn {
-     font-family: "Headland One", serif;
-     font-weight: 400;
-     font-size: 24px;
-     border-radius: 45px 0;
-     border: 3px solid var(--border-btn);
-background: var(--btn-background);
-color: var(--button-text-color); 
+  font-family: "Headland One", serif;
+  font-weight: 400;
+  font-size: 24px;
+  border-radius: 45px 0;
+  border: 3px solid var(--border-btn);
+  background: var(--btn-background);
+  color: var(--button-text-color);
   width: 260px;
-    height: 80px;
-    
+  height: 80px;
 }
 
 .trailer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .quote-second {
-    background-color: var(--text-header-main);
-   padding-top: 76px;
-   padding-bottom: 10px;
+  background-color: var(--text-header-main);
+  padding-top: 76px;
+  padding-bottom: 10px;
 }
 
-
 .quote-second-title {
-    font-weight: 400;
-    font-size: 36px;
-    width: 938px;
-    text-align: center;
-    margin: 0 auto;
-    color: var(--text-language-phrase);
-    margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 36px;
+  width: 938px;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--text-language-phrase);
+  margin-bottom: 4px;
 }
 
 .quote-second-title-down {
-   font-weight: 400;
-   font-size: 36px;
-   width: 812px;
-   text-align: center;
-   margin: 0 auto;
-   color: var(--text-language-phrase);
-   margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 36px;
+  width: 812px;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--text-language-phrase);
+  margin-bottom: 16px;
 }
 
-
 .quote-second-text {
-   font-weight: 400;
-    font-size: 24px;
-width: 151px;
-margin-bottom: 8px;
-text-align: center;
-margin: 0 auto;
+  font-weight: 400;
+  font-size: 24px;
+  width: 151px;
+  margin-bottom: 8px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .quote-second:after {
-content: "";
-display: block;
-width: 400px;
-height: 120px;
-background-image: url("../img/birdarrow.png");
-background-repeat: no-repeat;
-background-position: center;
-background-size: contain;
-margin: 0 auto;
+  content: "";
+  display: block;
+  width: 400px;
+  height: 120px;
+  background-image: url("../img/birdarrow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0 auto;
 }
 
 .quote-third {
-    background-color: var(--text-header-main);
-   padding-top: 75px;
-   padding-bottom: 10px;
+  background-color: var(--text-header-main);
+  padding-top: 75px;
+  padding-bottom: 10px;
 }
 
 .quote-third-title {
-    font-weight: 400;
-    font-size: 36px;
-    width: 938px;
-    text-align: center;
-    margin: 0 auto;
-    color: var(--text-language-phrase);
-    margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 36px;
+  width: 938px;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--text-language-phrase);
+  margin-bottom: 4px;
 }
 
 .quote-third-title-down {
-    width: 812px;
-    font-weight: 400;
-    font-size: 36px;
-    margin: 0 auto;
-    text-align: center;
-    color: var(--text-language-phrase);
-    margin-bottom: 16px;
+  width: 812px;
+  font-weight: 400;
+  font-size: 36px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--text-language-phrase);
+  margin-bottom: 16px;
 }
 
 .quote-third-text {
- font-weight: 400;
-    font-size: 24px;
-    width: 84px;
-    text-align: center;
-    margin: 0 auto;
+  font-weight: 400;
+  font-size: 24px;
+  width: 84px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .quote-third::after {
-    content: "";
-display: block;
-width: 400px;
-height: 120px;
-background-image: url("../img/birdarrow.png");
-background-repeat: no-repeat;
-background-position: center;
-background-size: contain;
-margin: 0 auto;
+  content: "";
+  display: block;
+  width: 400px;
+  height: 120px;
+  background-image: url("../img/birdarrow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0 auto;
 }
 
 .footer-item {
-    font-weight: 400;
-    font-size: 20px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .language-title {
-     font-family: "Headland One", serif;
-    font-weight: 400;
-    font-size: 32px;
-    width: 285px;
-    height: 40px;
+  font-family: "Headland One", serif;
+  font-weight: 400;
+  font-size: 32px;
+  width: 285px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .language-item {
-    font-weight: 400;
-    font-size: 24px;
-text-align: center;
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 120px;
+  font-weight: 400;
+  font-size: 24px;
+  background: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  width: calc((100% - 72px) / 3);
+  height: 240px;
 }
 
+/* .language-item:nth-child(2)::after {
+    content: url("../img/birdarrow.png");
+    width:152px;
+    height: 40px;
+} */
+
 .language-list {
-    background: rgba(255, 255, 255, 0.70);
-display: flex;
-flex-wrap: wrap;
-gap: 36px ;
-justify-content: center;
-padding: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  gap: 36px;
 }
 
 .hero {
-    background-image: url("../img/boyavatar.jpg");
-    height: 740px;
-    background-size: cover;
-    background-position: center;
+  background-image: url("../img/boyavatar.jpg");
+  height: 740px;
+  background-size: cover;
+  background-position: center;
 }
 
 .trailer {
-    background-image: url("../img/girlavatar.jpg");
-    height: 741px;
-    background-size: cover;
-    background-position: center;
+  background-image: url("../img/girlavatar.jpg");
+  height: 741px;
+  background-size: cover;
+  background-position: center;
 }
 
 .header {
-    background-image: linear-gradient(#2b4a61de,#2b4a61de),url("../img/part.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 150px;
+  background-image: linear-gradient(#2b4a61de, #2b4a61de),
+    url("../img/part.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 150px;
 }
 .language {
-    background-image: url("../img/world.jpg");
-    height: 704px;
-    background-size: cover;
+  background-image: url("../img/world.jpg");
+  height: 704px;
+  background-size: cover;
 }
 
 .footer {
-    background-image: linear-gradient(#2b4a61de,#2b4a61de),url("../img/footerpart.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 223px;
+  background-image: linear-gradient(#2b4a61de, #2b4a61de),
+    url("../img/footerpart.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 223px;
 }
