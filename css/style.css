@@ -79,10 +79,21 @@ body {
   color: var(--text-header-main);
 }
 
+.hero-text-second {
+  font-weight: 400;
+  font-size: 20px;
+  width: 376px;
+  color: var(--text-header-main);
+  margin-bottom: 35px;
+}
+
 .hero-link {
   width: 30px;
   height: 30px;
+
 }
+
+
 
 .hero-btn {
   font-family: "Headland One", serif;
@@ -155,12 +166,8 @@ body {
   color: var(--button-text-color);
   width: 260px;
   height: 80px;
-}
-
-.trailer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
+  display: block;
 }
 
 .quote-second {
@@ -268,6 +275,8 @@ body {
   width: 285px;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 48px;
+
 }
 
 .language-item {
@@ -277,13 +286,55 @@ body {
   text-align: center;
   width: calc((100% - 72px) / 3);
   height: 240px;
+  padding: 36px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-/* .language-item:nth-child(2)::after {
-    content: url("../img/birdarrow.png");
-    width:152px;
+.language-text-bird::after {
+    content:"";
+    background-image: url("../img/birdarrow.png");
+    width: 152px;
     height: 40px;
-} */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.language-text::after {
+  content:"";
+    background-image: url("../img/arrowblue.png");
+    width: 152px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.language-text-right::after {
+  content:"";
+    background-image: url("../img/arrowblue.png");
+    width: 152px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    transform: rotate(180deg);
+}
+
 
 .language-list {
   display: flex;
@@ -298,15 +349,28 @@ body {
   height: 740px;
   background-size: cover;
   background-position: center;
-  padding-top: 180px;
-  padding-bottom: 180px;
+ padding: 180px 0;
 }
+
+.hero-text::after {
+  content: "";
+  background-image: url("../img/arrow.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 152px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+}
+
 
 .trailer {
   background-image: url("../img/girlavatar.jpg");
   height: 741px;
   background-size: cover;
   background-position: center;
+  padding: 330px ;
 }
 
 .header {
@@ -323,6 +387,7 @@ body {
   background-image: url("../img/world.jpg");
   height: 704px;
   background-size: cover;
+  padding: 58px 0;
 }
 
 .footer {
