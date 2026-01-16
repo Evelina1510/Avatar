@@ -26,6 +26,11 @@ body {
   justify-content: space-between;
 }
 
+.hero .container.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .header-logo {
   padding-top: 39px;
@@ -160,8 +165,6 @@ body {
   margin: 0 auto;
   font-weight: 400;
   font-size: 36px;
-  width: 724px;
-  height: 44px;
   color: var(--phrase-color);
   padding-bottom: 8px;
 }
@@ -169,8 +172,6 @@ body {
 .quote-title-down {
   font-weight: 400;
   font-size: 36px;
-  width: 1002px;
-  height: 44px;
   color: var(--phrase-color);
   text-align: center;
   margin-bottom: 16px;
@@ -179,8 +180,6 @@ body {
 .quote-text {
   font-weight: 400;
   font-size: 24px;
-  width: 151px;
-  height: 29px;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 8px;
@@ -209,7 +208,6 @@ body {
 .quote-second-title {
   font-weight: 400;
   font-size: 36px;
-  width: 938px;
   text-align: center;
   margin: 0 auto;
   color: var(--text-language-phrase);
@@ -219,7 +217,6 @@ body {
 .quote-second-title-down {
   font-weight: 400;
   font-size: 36px;
-  width: 812px;
   text-align: center;
   margin: 0 auto;
   color: var(--text-language-phrase);
@@ -229,7 +226,6 @@ body {
 .quote-second-text {
   font-weight: 400;
   font-size: 24px;
-  width: 151px;
   margin-bottom: 8px;
   text-align: center;
   margin: 0 auto;
@@ -256,7 +252,6 @@ body {
 .quote-third-title {
   font-weight: 400;
   font-size: 36px;
-  width: 938px;
   text-align: center;
   margin: 0 auto;
   color: var(--text-language-phrase);
@@ -276,7 +271,6 @@ body {
 .quote-third-text {
   font-weight: 400;
   font-size: 24px;
-  width: 84px;
   text-align: center;
   margin: 0 auto;
 }
@@ -371,12 +365,14 @@ body {
   gap: 36px;
 }
 
-.footer-logo {
-  padding-top: 76px;
-   border-right: 2px solid var(--text-header-main);
-   padding-right: 80px;
-   
+.wrap2 {
+  display: flex;
+  
+}
 
+.footer-logo {
+   border-right: 2px solid var(--text-header-main);
+   padding: 42px;
 }
 
 .footer-list {
@@ -398,6 +394,8 @@ body {
   color: var(--text-header-main);
   font-size: 14px;
   font-weight: 400;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -440,5 +438,5 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 223px;
+  padding: 35px 0;
 }
