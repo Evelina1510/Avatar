@@ -378,10 +378,10 @@ body {
 .footer-list {
   color: var(--text-header-main);
   display: flex;
-  flex-wrap: wrap;
+  padding-left: 80px;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
- padding-left: 80px;
+  gap: 16px;
 }
 
 .footer-item {
