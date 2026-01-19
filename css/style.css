@@ -44,7 +44,7 @@ body {
 }
 
 .header-actions {
-  margin-left: 212px;
+  margin-left: 110px;
   margin-right: 49px;
 }
 
@@ -79,8 +79,6 @@ body {
   text-decoration: none;
   font-size: 20px;
   font-weight: 300;
-  width: 78px;
-  height: 24px;
   color: var(--text-header-main);
   display: flex;
   flex-wrap: nowrap;
@@ -243,6 +241,15 @@ body {
   margin: 0 auto;
 }
 
+.switch-active-link.active {
+  color: var(--text-header-main);
+}
+
+.switch-active-link {
+color: var(--hover-header);
+}
+
+
 .quote-third {
   background-color: var(--text-header-main);
   padding-top: 75px;
@@ -293,7 +300,6 @@ body {
   font-family: "Headland One", serif;
   font-weight: 400;
   font-size: 32px;
-  width: 285px;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 48px;
